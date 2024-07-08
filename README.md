@@ -1,1 +1,1 @@
-This is the first time using HTML for holberton
+This will be the main directory
