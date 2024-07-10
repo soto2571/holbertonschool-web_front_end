@@ -1,0 +1,34 @@
+/* Define custom properties in the root element */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+/* Set the foreground color for the body using the text-color custom property */
+body {
+    color: var(--text-color);
+}
+
+/* Set the foreground color for all anchor elements using the text-color custom property */
+a {
+    color: var(--text-color);
+}
+
+/* Hide elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* Set the foreground color for elements with the class card-category using the color-primary custom property */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Set the foreground color for elements with the class section-tagline using the color-primary custom property */
+.section-tagline {
+    color: var(--color-primary);
+}
